@@ -1,17 +1,17 @@
 package com.robi.singleapp.logserver.Entity;
 
-public class Stundent {
+public class Student {
     private int id;
     private String name;
     private String course;
 
-    public Stundent(int id, String name, String course) {
+    public Student(int id, String name, String course) {
         this.id = id;
         this.name = name;
         this.course = course;
     }
 
-    public Stundent(){}
+    public Student(){}
 
     public int getId() {
         return id;
