@@ -1,11 +1,13 @@
 package com.robi.singleapp.logserver.Dao;
 
 import com.robi.singleapp.logserver.Entity.Student;
+import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
+@Repository
 public class StudentDao {
     public static Map<Integer, Student> students;
 
